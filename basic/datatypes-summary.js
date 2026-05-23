@@ -1,4 +1,4 @@
-// Primitive :-
+// Primitive :- Stack Memory (Copy)
 //All primitive types are call by value to store they use copy of memory value is change in copy not in the original memory
 // 7 types of Primitive Datatypes 
 // 1.String 2.Boolean 3.Number 4.null 5.undefined 6.symbol(kisi bhi value ko unique bnane ke liye) 7.BigInt
@@ -25,7 +25,7 @@ console.log(typeof bigNumber1)
 
 //if in last add n then typeof will be bigint
 
-//Reference Type or Non-Primitive Type
+//Reference Type or Non-Primitive Type (Heap Memory) (Reference)
 //memory me directly reference
 // 1.Array 2.Objects 3.function
 
@@ -45,4 +45,18 @@ const myFunction = function() {
     "Hello World"
 }
 console.log(myFunction)
+
+let userOne = {
+    email:"abc@gmail.cpm", age:29
+}
+
+let userTwo = userOne
+userOne.age = 12
+userTwo.email = "abd@gmail.com"
+console.log(userOne)
+console.log(userTwo)
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
 
