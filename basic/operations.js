@@ -23,16 +23,14 @@ console.log(1 + 2 +"2") //32
 console.log(null > 0) //false
 console.log(null == 0) //false
 console.log(null >= 0) //true
-
+console.log(null <= 0) //true
 
 console.log(undefined > 0 ) //fasle
 console.log(undefined == 0) //false
 console.log(undefined >= 0) //false
+console.log(undefined <= 0) //false
 
 // === is used to strictly check because it check type also before checking
 console.log('Navneet');
 
 console.log("2" === 2) //false
-
-
-

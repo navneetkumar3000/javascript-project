@@ -11,9 +11,8 @@ let score4
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
-console.log(id)
+console.log(id, typeof id)
 console.log(anotherId)
-
 
 console.log(id === anotherId)
 
@@ -58,5 +57,8 @@ console.log(userTwo)
 
 console.log(userOne.email)
 console.log(userTwo.email)
-
-
+/*
+== compares only values after performing type coercion (automatic type conversion).
+=== compares both value and type without conversion.
+=== is safer and is the recommended operator in modern JavaScript development.
+*/

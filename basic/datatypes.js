@@ -26,5 +26,3 @@ console.log(typeof undefined); //undefined
 // null => standalone value (representation of empty string)
 // undefined when value is not assigned
 // symbol (maily used in react) for uniqueness (unique & immutable)
-
-// Object
