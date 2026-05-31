@@ -14,7 +14,8 @@ console.log(accountId)
 /*
     Prefer not to use var
     Because of issue in Block scope and Functional scope
-    after code write please save the file to get the output otherwise till that previous save that will only show
+    after code write please save the file to get the output otherwise till that previous 
+    save that will only show, otherwise enable the autosave.
 */
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
